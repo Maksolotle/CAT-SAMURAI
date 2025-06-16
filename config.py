@@ -1,5 +1,5 @@
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")  # строка, из env
-GROUP_ID = int(os.getenv("GROUP_ID"))  # число из env, надо конвертировать
+TOKEN = os.getenv("BOT_TOKEN")
+GROUP_ID = int(os.getenv("GROUP_ID"))
 LOG_ID = int(os.getenv("LOG_ID"))
