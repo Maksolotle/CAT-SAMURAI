@@ -1,5 +1,4 @@
-import os
+TOKEN = "YOUR_TOKEN"
 
-TOKEN = os.getenv("BOT_TOKEN")
-GROUP_ID = int(os.getenv("GROUP_ID"))
-LOG_ID = int(os.getenv("LOG_ID"))
+GROUP_ID = YOUR_GROUP_CHAT_ID # chat
+LOG_ID = YOUR_LOG_CHAT_ID # logs
