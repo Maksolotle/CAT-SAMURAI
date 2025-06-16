@@ -1,4 +1,5 @@
-TOKEN = "YOUR_TOKEN"
+import os
 
-GROUP_ID = YOUR_GROUP_CHAT_ID # chat
-LOG_ID = YOUR_LOG_CHAT_ID # logs
+TOKEN = os.getenv("BOT_TOKEN")  # строка, из env
+GROUP_ID = int(os.getenv("GROUP_ID"))  # число из env, надо конвертировать
+LOG_ID = int(os.getenv("LOG_ID"))
