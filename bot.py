@@ -18,7 +18,7 @@ censor_ru = Censor.get(lang="ru")  # censor
 def check_for_profanity(text):
     line_info = censor_ru.clean_line(text)
 
-    _word = line_info[0][3] if line_info[
+    _word = line_info[3][0] if line_info[
         1] else line_info[4][0] if line_info[2] else None
 
     return not _word is None, _word, line_info
